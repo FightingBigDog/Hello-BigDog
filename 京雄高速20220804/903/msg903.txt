@@ -1,0 +1,51 @@
+UPER:(42 44 00 00 00 00 68 92 08 a4 9a b7 4d c5 61 1d d8 aa 1d c2 a0 70 e8 af fc 28 ef fc 64 60 01 e3 c7 b4 5c f8 65 cb 93 66 9d ba 7a 22 74 8b 77 5d 9b 11 2c 45 d3 2f 8e 88 9d 22 b9 d5 ab 26 99 2e 75 6c d7 13 9b 9d 5a e2 6a e2 e7 56 ad d9 38 b9 d5 ae 66 0c ae 75 6b 95 9b 8b 9d 5a b0 6b 8e e7 57 19 9b 36 b9 d7 36 66 18 ee 75 71 8b 33 7b 9d 5c 63 64 e2 e7 56 cc 5a 65 b9 d5 ce 16 f9 6e 75 73 85 bb 6b 9d 73 66 60 c5 17 d8 00 05 7f e9 09 7f ea 6b 00 07 0c 03 fc 9c 4a 01 fe 4e 26 80 00 )
+[08/04/22 08:35:15 615] RoadSideInformation ::= {
+    msgCnt: 34
+    id: 00 00 00 00 34 49 04 52
+    refPos: Position3D ::= {
+        lat: 397852130
+        long: 1162156630
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 21
+            eventType: 903
+            eventSource: 4 (internet)
+            eventPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LL-48B ::= {
+                    lon: -7865
+                    lat: -7389
+                }
+            }
+            eventRadius: 15
+            description: {"speedlimit":"null","text":"\u524d\u65b9\u5b58\u5728\u5f02\u5e38\u505c\u8f66\uff0c\u8bf7\u8c28\u614e\u9a7e\u9a76\uff01"}
+            priority: 80
+            referencePaths: ReferencePathList ::= {
+                ReferencePath ::= {
+                    activePath: PathPointList ::= {
+                        PositionOffsetLLV ::= {
+                            offsetLL: Position-LL-48B ::= {
+                                lon: -5879
+                                lat: -5525
+                            }
+                        }
+                    }
+                    pathRadius: 7
+                }
+            }
+            referenceLinks: ReferenceLinkList ::= {
+                ReferenceLink ::= {
+                    upstreamNodeId: NodeReferenceID ::= {
+                        region: 255
+                        id: 10002
+                    }
+                    downstreamNodeId: NodeReferenceID ::= {
+                        region: 255
+                        id: 10003
+                    }
+                    referenceLanes: 40 00
+                }
+            }
+        }
+    }
+}

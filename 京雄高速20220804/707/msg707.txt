@@ -1,0 +1,62 @@
+UPER:(42 82 00 00 00 00 50 42 d2 32 9a b7 4d c5 61 1d d8 aa 1d c2 a0 58 68 af f7 6b 0f fe 8e 20 01 e3 b7 b4 5c f8 65 cb 93 66 9d ba 7a 22 74 89 a3 04 4b 11 74 cb e3 a2 27 48 ae 75 6a c9 a6 4b 9d 5b 35 c4 e6 e7 57 2c 1a b3 b9 d5 c6 4c b9 ae 75 6a cf 23 1b 9d 5b b5 63 9a e7 56 cc b2 b5 b9 d5 ab 86 6d 6e 75 cd 99 86 3b 9d 5c 62 cc de e7 56 ac 71 e6 b9 d5 cb 06 39 ae 75 6c c5 b3 2b 9d 5c 38 69 8e e7 5c d9 98 31 45 f6 00 81 5f f0 af 20 06 80 c0 05 80 af f6 c4 0f f9 c6 60 01 81 80 7f 93 89 40 3f c9 c4 d0 00 00 )
+[08/04/22 08:29:05 610] RoadSideInformation ::= {
+    msgCnt: 65
+    id: 00 00 00 00 28 21 69 19
+    refPos: Position3D ::= {
+        lat: 397852130
+        long: 1162156630
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 21
+            eventType: 707
+            eventSource: 4 (internet)
+            eventPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LL-48B ::= {
+                    lon: -17576
+                    lat: -2959
+                }
+            }
+            eventRadius: 15
+            description: {"speedlimit":"40","text":"\u524d\u65b9\u9053\u8def\u53d1\u751f\u62e5\u5835\uff0c\u8bf7\u51cf\u901f\u6162\u884c\uff01"}
+            priority: 80
+            referencePaths: ReferencePathList ::= {
+                ReferencePath ::= {
+                    activePath: PathPointList ::= {
+                        PositionOffsetLLV ::= {
+                            offsetLL: Position-LL-48B ::= {
+                                lon: -15684
+                                lat: 6659
+                            }
+                        }
+                    }
+                    pathRadius: 22
+                }
+                ReferencePath ::= {
+                    activePath: PathPointList ::= {
+                        PositionOffsetLLV ::= {
+                            offsetLL: Position-LL-48B ::= {
+                                lon: -18912
+                                lat: -12749
+                            }
+                        }
+                    }
+                    pathRadius: 12
+                }
+            }
+            referenceLinks: ReferenceLinkList ::= {
+                ReferenceLink ::= {
+                    upstreamNodeId: NodeReferenceID ::= {
+                        region: 255
+                        id: 10002
+                    }
+                    downstreamNodeId: NodeReferenceID ::= {
+                        region: 255
+                        id: 10003
+                    }
+                    referenceLanes: 40 00
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<MessageFrame>
+    <rsiFrame>
+        <msgCnt>1</msgCnt>
+        <id>10 00 00 00 00 00 00 01</id>
+        <refPos>
+            <lat>397852130</lat>
+            <long>1162156630</long>
+        </refPos>
+        <rtes>
+            <RTEData>
+                <rteId>1</rteId>
+                <eventType>1003</eventType>
+                <eventSource><detection/></eventSource>
+                <description>
+                    <textString>{"VehicleNumberLimit":"2","text":"\u5f53\u524d\u8f66\u961f\u6570\u91cf\u9650\u5236\u4e3a2\u8f86"}</textString>
+                </description>
+                <referenceLinks>
+                    <ReferenceLink>
+                        <upstreamNodeId>
+                            <region>255</region>
+                            <id>10002</id>
+                        </upstreamNodeId>
+                        <downstreamNodeId>
+                            <region>255</region>
+                            <id>10003</id>
+                        </downstreamNodeId>
+                        <referenceLanes>
+                            0100000000000000
+                        </referenceLanes>
+                    </ReferenceLink>
+                </referenceLinks>
+            </RTEData>
+        </rtes>
+    </rsiFrame>
+</MessageFrame>

@@ -1,0 +1,28 @@
+UPER:(42 66 00 c2 c4 e4 60 60 70 72 9a b7 4d c5 61 1d d8 aa 04 40 20 71 24 2a dc ea e3 16 66 f7 3a b9 c2 dd b5 ce ad dc e2 c5 73 ab 4c ac 59 dc ea dd ab 27 17 3a b8 cc d9 b5 ce ae 58 35 66 b2 e7 56 99 59 e1 b9 d5 a6 66 2e 2e 75 6a c5 a3 8b 9d 5c 66 6c da e7 57 19 9c 36 b9 d5 c6 2c 2e 6e 75 70 e1 a6 34 21 00 00 00 00 10 00 00 )
+[08/04/22 08:45:03 988] RoadSideInformation ::= {
+    msgCnt: 51
+    id: 00 61 62 72 30 30 38 39
+    refPos: Position3D ::= {
+        lat: 397852130
+        long: 1162156630
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 1
+            eventType: 905
+            eventSource: 2 (government)
+            description: \u8bf7\u9a76\u79bb\u4e13\u7528\u8f66\u9053,\u4e3a\u4f18\u5148\u8f66\u8f86\u8ba9\u884c!
+            referenceLinks: ReferenceLinkList ::= {
+                ReferenceLink ::= {
+                    upstreamNodeId: NodeReferenceID ::= {
+                        id: 0
+                    }
+                    downstreamNodeId: NodeReferenceID ::= {
+                        id: 0
+                    }
+                    referenceLanes: 40 00
+                }
+            }
+        }
+    }
+}

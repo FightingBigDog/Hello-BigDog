@@ -1,0 +1,19 @@
+UPER:(42 f1 4b 08 37 f7 3b b7 69 f3 9a b7 36 11 61 1d dc 22 79 22 05 17 40 34 40 32 b1 60 c1 83 35 b7 3a b5 64 d3 25 ce ad 9a e2 73 73 ab 8c 99 73 5c ea db 16 26 b7 3a b5 63 9b 0d ce ad d9 e2 61 73 ab 96 0d 59 dc ea e3 26 5c d7 3a b7 70 cd a5 ce ad 99 b5 cd 73 ae 6c cc 31 dc ea e3 16 66 f7 3a b8 c6 c9 c5 ce ad 98 b4 cb 73 ab 9c 2d f2 dc ea e7 0b 76 c4 00 )
+[08/04/22 08:18:56 986] RoadSideInformation ::= {
+    msgCnt: 120
+    id: A5 84 1B FB 9D DB B4 F9
+    refPos: Position3D ::= {
+        lat: 397849096
+        long: 1162157074
+        elevation: 11409
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 186
+            eventType: 418
+            eventSource: 0 (unknown)
+            description: 10003-\u524d\u65b9\u8def\u6bb5\u51fa\u73b0\u9053\u8def\u7834\u635f\uff0c\u8bf7\u8c28\u614e\u9a7e\u9a76
+            priority: 20
+        }
+    }
+}
