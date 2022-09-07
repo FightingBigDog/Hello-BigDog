@@ -1,0 +1,44 @@
+<MessageFrame>
+    <rsiFrame>
+        <msgCnt>123</msgCnt>
+        <id>91 A4 C2 E7 2F 08 F7 CB</id>
+        <refPos>
+            <lat>396550664</lat>
+            <long>1161758716</long>
+            <elevation>59049</elevation>
+        </refPos>
+        <rtss>
+            <RTSData>
+                <rtsId>186</rtsId>
+                <signType>2</signType>
+                <signPos>
+                    <offsetLL>
+                        <position-LatLon>
+                            <lon>1161758716</lon>
+                            <lat>396550664</lat>
+                        </position-LatLon>
+                    </offsetLL>
+                </signPos>
+                <description>
+                    <textString>\u8bf7\u5c0f\u5fc3\u9a7e\u9a76</textString>
+                </description>
+                <priority>20</priority>
+                <referencePaths>
+                    <ReferencePath>
+                        <activePath>
+                            <PositionOffsetLLV>
+                                <offsetLL>
+                                    <position-LatLon>
+                                        <lon>1161758716</lon>
+                                        <lat>396550664</lat>
+                                    </position-LatLon>
+                                </offsetLL>
+                            </PositionOffsetLLV>
+                        </activePath>
+                        <pathRadius>2000</pathRadius>
+                    </ReferencePath>
+                </referencePaths>
+            </RTSData>
+        </rtss>
+    </rsiFrame>
+</MessageFrame>

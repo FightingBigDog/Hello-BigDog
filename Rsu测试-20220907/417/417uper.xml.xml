@@ -1,0 +1,31 @@
+<MessageFrame>
+    <rsiFrame>
+        <msgCnt>110</msgCnt>
+        <id>2D 24 4D FD 65 31 73 77</id>
+        <refPos>
+            <lat>396539456</lat>
+            <long>1161757072</long>
+            <elevation>41132</elevation>
+        </refPos>
+        <rtes>
+            <RTEData>
+                <rteId>186</rteId>
+                <eventType>417</eventType>
+                <eventSource><unknown/></eventSource>
+                <eventPos>
+                    <offsetLL>
+                        <position-LatLon>
+                            <lon>1161757072</lon>
+                            <lat>396539456</lat>
+                        </position-LatLon>
+                    </offsetLL>
+                </eventPos>
+                <eventRadius>2000</eventRadius>
+                <description>
+                    <textString>10003\u5371\u9669\u8def\u6bb5\u63d0\u793a</textString>
+                </description>
+                <priority>20</priority>
+            </RTEData>
+        </rtes>
+    </rsiFrame>
+</MessageFrame>

@@ -1,0 +1,156 @@
+417-危险路段提示
+Recv length=74: =============
+42 dc 5a 48 9b fa ca 62 e6 ef 9a 8f 3e 81 61 11 a7 1f 61 58 
+1d 17 40 34 20 d6 11 1a 71 f3 51 e7 d0 01 f4 02 86 2c 18 30 
+67 73 ab 56 6d d8 dc ea e5 b3 67 37 3a b8 c9 97 35 ce ad b1 
+62 6b 73 ab 66 79 18 5c ea dd cb 3c 24 00 
+========END============
+=== DDD jump in sync RSI decode !!! 
+
+RoadSideInformation ::= {
+    msgCnt: 110
+    id: 2D 24 4D FD 65 31 73 77
+    refPos: Position3D ::= {
+        lat: 396539456
+        long: 1161757072
+        elevation: 41132
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 186
+            eventType: 417
+            eventSource: 0 (unknown)
+            eventPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LLmD-64b ::= {
+                    lon: 1161757072
+                    lat: 396539456
+                }
+            }
+            eventRadius: 2000
+            description: 10003\u5371\u9669\u8def\u6bb5\u63d0\u793a
+            priority: 20
+        }
+    }
+}
+
+418-道路破损
+Recv length=122: =============
+42 25 e3 68 e9 70 d7 41 4f cb 9a 8f 55 5f 61 11 aa 27 73 28 
+1d 17 40 34 40 d6 11 1a a2 73 51 ea ab c1 f4 05 fb 9d 5a b2 
+69 92 e7 56 cd 71 39 b9 d5 c6 4c b9 ae 75 6d 8b 13 5b 9d 5a 
+b1 cd 86 e7 56 ec f1 30 b9 d5 cb 06 ac ee 75 71 93 2e 6b 9d 
+5b b8 66 d2 e7 56 cc da e6 b9 d7 36 66 18 ee 75 71 8b 33 7b 
+9d 5c 63 64 e2 e7 56 cc 5a 65 b9 d5 ce 16 f9 6e 75 73 85 bb 
+62 00 
+========END============
+=== DDD jump in sync RSI decode !!! 
+
+RoadSideInformation ::= {
+    msgCnt: 18
+    id: F1 B4 74 B8 6B A0 A7 E5
+    refPos: Position3D ::= {
+        lat: 396542383
+        long: 1161757460
+        elevation: 43412
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 186
+            eventType: 418
+            eventSource: 0 (unknown)
+            eventPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LLmD-64b ::= {
+                    lon: 1161757460
+                    lat: 396542383
+                }
+            }
+            eventRadius: 2000
+            description: \u524d\u65b9\u8def\u6bb5\u51fa\u73b0\u9053\u8def\u7834\u635f\uff0c\u8bf7\u8c28\u614e\u9a7e\u9a76
+            priority: 20
+        }
+    }
+}
+
+1004-信息服务公告
+Recv length=127: =============
+42 14 02 22 22 22 22 22 22 23 9a 8f 81 05 61 11 b0 83 53 4e 
+1d 17 40 7d 80 d6 11 1b 08 33 51 f0 20 81 f4 06 5b 9d 5c e1 
+c8 e2 e7 57 2c 18 e6 b9 d5 ab 16 d8 ee 75 71 93 2e 6b 9d 5b 
+b9 70 c6 e7 56 d8 9b 32 b9 d5 ab 36 ec 6e 75 72 d9 b3 9b 9d 
+5a b3 62 da e7 56 b8 9b 36 b9 d5 ab 4c 6c 6e 75 71 9b 23 0b 
+9d 5c 66 72 ce e7 57 19 9b 36 b9 d5 c6 67 0d ae 75 72 c1 8e 
+1b 9d 5c 38 69 8c 80 
+========END============
+=== DDD jump in sync RSI decode !!! 
+
+RoadSideInformation ::= {
+    msgCnt: 10
+    id: 01 11 11 11 11 11 11 11
+    refPos: Position3D ::= {
+        lat: 396547970
+        long: 1161758274
+        elevation: 39335
+    }
+    rtes: RTEList ::= {
+        RTEData ::= {
+            rteId: 186
+            eventType: 1004
+            eventSource: 0 (unknown)
+            eventPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LLmD-64b ::= {
+                    lon: 1161758274
+                    lat: 396547970
+                }
+            }
+            eventRadius: 2000
+            description: \u9ad8\u901f\u516c\u8def\u7981\u6b62\u5371\u9669\u5316\u5b66\u54c1\u8fd0\u8f93\u8f66\u8f86\u901a\u884c
+            priority: 20
+        }
+    }
+}
+
+2-急转弯
+Recv length=73: =============
+41 f7 23 49 85 ce 5e 11 ef 97 9a 8f 96 11 61 11 b3 f7 ed 52 
+0d ae 80 00 9a c2 23 67 ee 6a 3e 58 40 3b 73 ab 8c 59 9b dc 
+ea d7 1b 0c d7 3a b5 cd 8d 9d ce ae 70 b7 cb 73 ab 9c 2d db 
+10 00 35 84 46 cf dc d4 7c b0 80 7d 00 
+========END============
+=== DDD jump in sync RSI decode !!! 
+
+RoadSideInformation ::= {
+    msgCnt: 123
+    id: 91 A4 C2 E7 2F 08 F7 CB
+    refPos: Position3D ::= {
+        lat: 396550664
+        long: 1161758716
+        elevation: 59049
+    }
+    rtss: RTSList ::= {
+        RTSData ::= {
+            rtsId: 186
+            signType: 2
+            signPos: PositionOffsetLLV ::= {
+                offsetLL: Position-LLmD-64b ::= {
+                    lon: 1161758716
+                    lat: 396550664
+                }
+            }
+            description: \u8bf7\u5c0f\u5fc3\u9a7e\u9a76
+            priority: 20
+            referencePaths: ReferencePathList ::= {
+                ReferencePath ::= {
+                    activePath: PathPointList ::= {
+                        PositionOffsetLLV ::= {
+                            offsetLL: Position-LLmD-64b ::= {
+                                lon: 1161758716
+                                lat: 396550664
+                            }
+                        }
+                    }
+                    pathRadius: 2000
+                }
+            }
+        }
+    }
+}
